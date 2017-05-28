@@ -1,0 +1,41 @@
+---
+layout: default.hbs
+subject: Welcome to Virtualitour
+---
+<span class="preheader">Welcome to VIRTUALITOUR</span>
+<div class="header">
+  <table>
+    <tr>
+      <td class="align-center">
+        <a href="{{ default.website }}"><img src="../src/img/logo.png" height="150" alt="Virtualitour"></a>
+      </td>
+    </tr>
+  </table>
+</div>
+<table class="main">
+  <tr>
+    <td class="wrapper">
+      <table>
+        <tr>
+          <td>
+            <h2>Welcome {{name}},<h2/>
+            <p>
+                We are really happy that you have join our team. Please confirm your email to enjoyed a full
+                virtual tour experience
+            </p>
+            {{> button type='primary' url='{{email}}' title='Confirm' }}
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<div class="footer">
+  <table>
+    <tr>
+      <td class="align-center">
+        <p>{{> follow_lee }}</p>
+      </td>
+    </tr>
+  </table>
+</div>

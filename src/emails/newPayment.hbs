@@ -1,0 +1,40 @@
+---
+layout: default.hbs
+subject: New Payment
+---
+<span class="preheader">There has been a new payment added to your account</span>
+<div class="header">
+  <table>
+    <tr>
+      <td class="align-center">
+        <a href="{{ default.website }}"><img src="../src/img/logo.png" height="150" alt="Virtualitour"></a>
+      </td>
+    </tr>
+  </table>
+</div>
+<table class="main">
+  <tr>
+    <td class="wrapper">
+      <table>
+        <tr>
+          <td>
+            <p>
+                We have receive your new payment with the following details:
+            </p>
+
+            {{> button type='primary' url='{{link}}' title='Reset Password' }}
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<div class="footer">
+  <table>
+    <tr>
+      <td class="align-center">
+        <p>{{> follow_lee }}</p>
+      </td>
+    </tr>
+  </table>
+</div>

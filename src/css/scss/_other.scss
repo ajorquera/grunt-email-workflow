@@ -47,3 +47,12 @@
   visibility: hidden;
   width: 0;
 }
+
+// Custom
+.blue-pattern-bg {
+    background-image: url($backgroundPattern);
+}
+
+.white-text {
+    color: white;
+} 
