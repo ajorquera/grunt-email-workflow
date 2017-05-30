@@ -34,7 +34,6 @@
     "grunt-cli": "^1.2.0"
   },
   "scripts": {
-      "start": "node_modules/grunt-cli/bin/grunt serve",
-      "postinstall": "node_modules/grunt-cli/bin/grunt"
+      "start": "node_modules/grunt-cli/bin/grunt serve"
   }
 }
