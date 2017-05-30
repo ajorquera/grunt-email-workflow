@@ -1,8 +1,8 @@
 ---
 layout: default.hbs
-subject: New Payment
+subject: Subscription Update
 ---
-<span class="preheader">There has been a new payment added to your account</span>
+<span class="preheader">You subscription has been updated</span>
 <div class="header">
   <table>
     <tr>
@@ -18,16 +18,11 @@ subject: New Payment
       <table>
         <tr>
           <td>
+            <h2>Subscription Updated<h2/>
             <p>
-                We have receive a new payment with the following details:
+                Your subscription has been succesfully updated to <strong>{typeSubscription}</strong>. Let us know if
+                you have any questions.
             </p>
-            <strong>Card</strong>
-            <ul>
-                <li>Name: {name}</li>
-                <li>Type: {brand}</li>
-                <li>Last 4 Digits: {last4Digits}</li>
-                <li>Country: {country}</li>
-            </ul>
           </td>
         </tr>
       </table>

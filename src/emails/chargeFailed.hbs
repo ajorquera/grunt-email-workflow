@@ -1,8 +1,8 @@
 ---
 layout: default.hbs
-subject: New Payment
+subject: Payment Failed
 ---
-<span class="preheader">There has been a new payment added to your account</span>
+<span class="preheader">Payment failure</span>
 <div class="header">
   <table>
     <tr>
@@ -18,16 +18,12 @@ subject: New Payment
       <table>
         <tr>
           <td>
+              {{> notice type='danger' text='Unfortunately, your payment has failed :(' }}
             <p>
-                We have receive a new payment with the following details:
+                You can account has been downgrade to "starter", but don't worry, your tours are still available.
+                Please verify that you payment information is correct and your account will be upgraded once the issue
+                is resolve.
             </p>
-            <strong>Card</strong>
-            <ul>
-                <li>Name: {name}</li>
-                <li>Type: {brand}</li>
-                <li>Last 4 Digits: {last4Digits}</li>
-                <li>Country: {country}</li>
-            </ul>
           </td>
         </tr>
       </table>

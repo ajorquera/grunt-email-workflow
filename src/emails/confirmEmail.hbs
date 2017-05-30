@@ -1,8 +1,8 @@
 ---
 layout: default.hbs
-subject: Welcome to Virtualitour
+subject: Confirm Email
 ---
-<span class="preheader">Welcome to VIRTUALITOUR</span>
+<span class="preheader">Please confirm your email</span>
 <div class="header">
   <table>
     <tr>
@@ -18,12 +18,11 @@ subject: Welcome to Virtualitour
       <table>
         <tr>
           <td>
-            <h2>Welcome {{name}},<h2/>
+            <h2>Welcome {name}, thanks for joining.<h2/>
             <p>
-                We are really happy that you have join our team. Please confirm your email to enjoyed a full
-                virtual tour experience
+                We are really happy to have you. Please confirm your email to enjoy the best user experience.
             </p>
-            {{> button type='primary' url='{{email}}' title='Confirm' }}
+            {{> button type='primary' url='{{email}}' title='Confirm email' }}
           </td>
         </tr>
       </table>
